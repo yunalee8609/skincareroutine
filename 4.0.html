@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title>Combination Skin Type</title>
+        <link rel="stylesheet" href="stylesheet0.1/4.0.css">
+    </head>
+
+    <body>
+        <h1> Combination Skin Type <br>
+            <font size="5" weight="normal"> <u>[com·​bi·​na·​tion/skin/tīp] noun</u>
+            </font>
+        </h1>
+        <h2 id="typing-effect">Skin is oily in some place and dry in other spots. The cause can be from genetics, horomonal issues, or <br>
+            environmental factors.</h2>
+        <br><br><br><br>
+        <h3> Skin Care Routine for Combination Skin Type </h3>
+        <br><br>
+
+        <div class="parent">
+            <div class="child">
+                <p2> 1.</p2>
+            </div>
+
+            <div class="child">
+                <img src="images0.1/1. exfoliate.jpeg">
+            </div>
+
+            <div class="child">
+                <p id="explain1">
+                    <font size="6">
+                        <b><i>Exfoliate</i></b><br> 
+                    </font>
+                    Exfoliate 1~3 times a week to help remove dead skin cells and pore clogging.<br>
+                    *Try to avoid grainy scrubs and stick with chemical exfoliants. 
+                    (ingredients like retnol, AHA/BHA)*
+                </p>
+            </div>
+
+        </div>
+        <br><br><br>
+
+        <div class="parent">
+            <div class="child">
+                <img src="images0.1/2.cleansing.jpeg">
+            </div>
+            <div class="child">
+                <p id="explain1">
+                    <font size="6">
+                        <b><i>Cleansing</i></b><br> 
+                    </font>
+                    Cleanse with a gentle cleanser twice a day, in the morning and at night to remove dirt and excess oil. 
+                    Use a gentle non-foaming cleanser.<br> 
+                    *Make sure it does not strip all of your oil because it will create more oil*
+                </p>
+            </div>
+            <div class="child">
+                <p2>2.</p2>
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="child">
+                <p2> 3.</p2>
+            </div>
+
+            <div class="child">
+                <img src="images0.1/3.serum.jpeg">
+            </div>
+
+            <div class="child">
+                <p id="explain1">
+                    <font size="6">
+                        <b><i>Serum</i></b><br> 
+                    </font>
+                    Apply after washing your face. 
+                    You can use products catered to what your skin needs! <br>
+                    *Anti-aging (retinol,bakuchiol), 
+                    Skin brightening (vitamin C, glycolic acid, kojic acid)
+                    Hydrating (hyaluronic acid, vitamin B5)
+                    Acne-fighting (salicylic acid, niacinamide)*
+                </p>
+            </div> 
+        </div> 
+
+        <div class="parent">
+            <div class="child">
+                <img src="images0.1/4.moisturizer.jpeg">
+            </div>
+            <div class="child">
+                <p id="explain1">
+                    <font size="6">
+                        <b><i>Moisturizer</i></b><br> 
+                    </font>
+                     Apply a light oil-free moisturizer in oily areas, and heavier cream in the dry areas<br> 
+                     *You can use lotion (less oil) or cream (more oil), based on where and how dry your skin is*
+                </p>
+            </div>
+            <div class="child">
+                <p2>4.</p2>
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="child">
+                <p3> 5.</p3>
+            </div>
+
+            <div class="child">
+                <img src="images0.1/5.sunscreen.jpeg">
+            </div>
+
+            <div class="child">
+                <p id="explain2"> 
+                    <font size="6">
+                        <b><i>Sunscreen</i></b><br> 
+                    </font>
+                    Apply sunscreen with a SPF30 or higher in the morning every single day,
+                    regardless of whether you stay indoors or outdoors!<br>
+                    *Re-apply every 2~3 hours*
+
+                </p>
+            </div> 
+        </div> 
+
+        <div class="parent">
+            <div class="child">
+                <img src="images0.1/6.facemask.jpeg">
+            </div>
+            <div class="child">
+                <p id="explain2">
+                    <font size="6">
+                        <b><i>Face Mask</i></b><br> 
+                    </font>
+                     Use a face mask 1~3 times a week to balance the overall skin. You can use a clay mask in areas that are oily, and a gel or cream based mask in the dry areas. 
+                </p>
+            </div>
+            <div class="child">
+                <p3>6.</p3>
+            </div>
+        </div>
+        <p id="tip">Pro Tip! Use a blotting paper to control the oily parts of the face. Also try to use a lightweight makeup, so your pores do not get clogged *Cleansing is key if you wear make up!!*</p>
+        <br><br><br><br>
+        <h><a href="4.1.html"> Still not sure what products to use? Here's our recommendations! </a>
+        </h>
+        <br><br><br><br>
+        
+        <script>
+            setTimeout(function() {
+                var typingEffect = document.getElementById('typing-effect');
+                var lineHeight = parseInt(window.getComputedStyle(typingEffect).lineHeight);
+                var lines = typingEffect.offsetHeight / lineHeight;
+                typingEffect.style.animation = 'typing ' + lines * 0.5 + 's steps(40, end), blink-caret 0.75s step-end infinite';
+            }, 1000); 
+        </script>
+    </body>
+</html>

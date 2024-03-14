@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>Oily Skin Type</title>
+        <link rel="stylesheet" href="stylesheet0.1/2.0.css">
+    </head>
+
+    <body>
+        <h1> Oily Skin Type <br>
+            <font size="5" weight="normal"> <u>[ˈoilē/skin/tīp] noun</u>
+            </font>
+        </h1>
+        <h2 id="typing-effect">Skin has lots of excess sebum with a shiny complexion. The main cause of this skin type is from genetics.</h2>
+        <br><br><br><br>
+        <h3> Skin Care Routine for Oily Skin Type </h3>
+        <br><br>
+
+        <div class="parent">
+            <div class="child">
+                <p2> 1.</p2>
+            </div>
+
+            <div class="child">
+                <img src="images0.1/1. exfoliate.jpeg">
+            </div>
+
+            <div class="child">
+                <p id="explain1">
+                    <font size="6">
+                        <b><i>Exfoliate</i></b><br> 
+                    </font>
+                    Exfoliate 1~3 times a week to help remove dead skin cells and pore clogging.<br>
+                    *Try to avoid grainy scrubs and stick with chemical exfoliants. 
+                    (ingredients like retnol, AHA/BHA)*
+                </p>
+            </div>
+
+        </div>
+        <br><br><br>
+
+        <div class="parent">
+            <div class="child">
+                <img src="images0.1/2.cleansing.jpeg">
+            </div>
+            <div class="child">
+                <p id="explain1">
+                    <font size="6">
+                        <b><i>Cleansing</i></b><br> 
+                    </font>
+                    Cleanse twice a day, in the morning and at night to remove dirt and excess oil. 
+                    Use a foaming gentle cleanser in the morning and an exfolating cleanser in the evening<br> 
+                    *Make sure to also cleanse after a workout or heavy sweating*
+                </p>
+            </div>
+            <div class="child">
+                <p2>2.</p2>
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="child">
+                <p2> 3.</p2>
+            </div>
+
+            <div class="child">
+                <img src="images0.1/3.serum.jpeg">
+            </div>
+
+            <div class="child">
+                <p id="explain1">
+                    <font size="6">
+                        <b><i>Serum</i></b><br> 
+                    </font>
+                    Apply after washing your face. 
+                    You can use products catered to what your skin needs! <br>
+                    *Anti-aging (retinol,bakuchiol), 
+                    Skin brightening (vitamin C, glycolic acid, kojic acid)
+                    Hydrating (hyaluronic acid, vitamin B5)
+                    Acne-fighting (salicylic acid, niacinamide)*
+                </p>
+            </div> 
+        </div> 
+
+        <div class="parent">
+            <div class="child">
+                <img src="images0.1/4.moisturizer.jpeg">
+            </div>
+            <div class="child">
+                <p id="explain2">
+                    <font size="6">
+                        <b><i>Moisturizer</i></b><br> 
+                    </font>
+                     Apply a light weight, oil free, water-based moisturizer twice a day to lock in your serum and hydrate your skin.<br> 
+                     *You can use a heavier product in the evening if you feel that it is a little dry, but avoid using thick oil directly on the face*
+                </p>
+            </div>
+            <div class="child">
+                <p3>4.</p3>
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="child">
+                <p3> 5.</p3>
+            </div>
+
+            <div class="child">
+                <img src="images0.1/5.sunscreen.jpeg">
+            </div>
+
+            <div class="child">
+                <p id="explain2"> 
+                    <font size="6">
+                        <b><i>Sunscreen</i></b><br> 
+                    </font>
+                    Apply a light weight sunscreen with a SPF30 or higher in the morning every single day,
+                    regardless of whether you stay indoors or outdoors! (ingredients with titanium dioxide, zinc oxide)<br>
+                    *Re-apply every 2~3 hours*
+
+                </p>
+            </div> 
+        </div> 
+
+        <div class="parent">
+            <div class="child">
+                <img src="images0.1/6.facemask.jpeg">
+            </div>
+            <div class="child">
+                <p id="explain2">
+                    <font size="6">
+                        <b><i>Face Mask</i></b><br> 
+                    </font>
+                     Apply a clay face mask 1~3 times a week, the clay obsorbs the excess sebum, so it helps with clogged pores.
+                      Make sure to wash the mask off thoroughly and cleanse after using a clay mask
+                      <br> *You can also use a blotting paper regularly to control the sebum*
+                </p>
+            </div>
+            <div class="child">
+                <p3>6.</p3>
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+        <h><a href="2.1.html"> Still not sure what products to use? Here's our recommendations! </a>
+        </h>
+        <br><br><br><br>
+        
+        <script>
+            setTimeout(function() {
+                var typingEffect = document.getElementById('typing-effect');
+                var lineHeight = parseInt(window.getComputedStyle(typingEffect).lineHeight);
+                var lines = typingEffect.offsetHeight / lineHeight;
+                typingEffect.style.animation = 'typing ' + lines * 0.5 + 's steps(40, end), blink-caret 0.75s step-end infinite';
+            }, 1000); 
+        </script>
+    </body>
+</html>

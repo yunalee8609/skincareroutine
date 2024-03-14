@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Dry Skin Type</title>
+        <link rel="stylesheet" href="stylesheet0.1/3.0.css">
+    </head>
+
+    <body>
+        <h1> Dry Skin Type <br>
+            <font size="5" weight="normal"> <u>[drī/skin/tīp] noun</u>
+            </font>
+        </h1>
+        <h2 id="typing-effect">Skin that lacks moisture, looking scaly and feeling rough. The cause can be from genetics, the environment, <br>
+            or exposure to irritants.</h2>
+        <br><br><br><br>
+        <h3> Skin Care Routine for Dry Skin Type </h3>
+        <br><br>
+
+        <div class="parent">
+            <div class="child">
+                <p2> 1.</p2>
+            </div>
+
+            <div class="child">
+                <img src="images0.1/2.cleansing.jpeg">
+            </div>
+
+            <div class="child">
+                <p id="explain1">
+                    <font size="6">
+                        <b><i>Cleansing</i></b><br> 
+                    </font>
+                    Cleanse twice a day, in the morning and at night to remove any dirt. 
+                    Use a hydrating non-foaming cleanser that will not strip your oil.<br> 
+                    (hyaluronic acid, glycerin)
+                </p>
+            </div>
+
+        </div>
+        <br><br><br>
+
+        <div class="parent">
+            <div class="child">
+                <img src="images0.1/3.serum.jpeg">
+            </div>
+            <div class="child">
+                <p id="explain1">
+                    <font size="6">
+                        <b><i>Serum</i></b><br> 
+                    </font>
+                    Apply after washing your face. 
+                    You can use products catered to what your skin needs but try to avoid harsh chemicals <br>
+                    *Hydrating (hyaluronic acid, vitamin B5)
+                    Skin brightening (vitamin C, glycolic acid) Although Vitamin C is good, too much can irritate the skin*
+                </p>
+            </div>
+            <div class="child">
+                <p2>2.</p2>
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="child">
+                <p2> 3.</p2>
+            </div>
+
+            <div class="child">
+                <img src="images0.1/4.moisturizer.jpeg">
+            </div>
+
+            <div class="child">
+                <p id="explain1">
+                    <font size="6">
+                        <b><i>Moisturizer</i></b><br> 
+                    </font>
+                    Moisturizer is key to hydrating a dry skin. Make sure to use a non-comedogenic (that won't clog pores). 
+                    Keep it lighter in the morning, and use a heavier cream at night.
+                    *Lotion (less oil), cream (more oil), or ointment (occlusive, ceramide) is all available for use*
+                </p>
+            </div> 
+        </div> 
+
+        <div class="parent">
+            <div class="child">
+                <img src="images0.1/5.sunscreen.jpeg">
+            </div>
+            <div class="child">
+                <p id="explain2">
+                    <font size="6">
+                        <b><i>Sunscreen</i></b><br> 
+                    </font>
+                    Apply sunscreen with a SPF30 or higher in the morning every single day,
+                    regardless of whether you stay indoors or outdoors!<br>
+                    *Re-apply every 2~3 hours*
+                </p>
+            </div>
+            <div class="child">
+                <p3>4.</p3>
+            </div>
+        </div>
+
+        <p id="tip">Pro Tip! If your skin is drying out too much when you wake up in the morning, humidifiers are great during fall and winter seasons between October to April</p>
+        <br><br><br><br>
+
+        <h><a href="3.1.html"> Still not sure what products to use? Here's our recommendations! </a>
+        </h>
+        <br><br><br><br>
+        
+        <script>
+            setTimeout(function() {
+                var typingEffect = document.getElementById('typing-effect');
+                var lineHeight = parseInt(window.getComputedStyle(typingEffect).lineHeight);
+                var lines = typingEffect.offsetHeight / lineHeight;
+                typingEffect.style.animation = 'typing ' + lines * 0.5 + 's steps(40, end), blink-caret 0.75s step-end infinite';
+            }, 1000); 
+        </script>
+    </body>
+</html>
